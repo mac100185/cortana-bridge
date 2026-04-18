@@ -185,7 +185,8 @@ def upload_files():
 
 @app.route('/download/<filename>')
 def download_file(filename):
-    return send_from_directory(OUTPUT_FOLDER, filename)
+    # Aseguramos la ruta absoluta para evitar errores de resolución de Flask
+    return send_from_directory(os.path.abspath(OUTPUT_FOLDER), filename)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)
