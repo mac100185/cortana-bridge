@@ -1,16 +1,16 @@
 # Cortana Bridge v3.0
-A sophisticated, lightweight bridge for transferring files between a secure corporate environment and an AI assistant.
+Un puente sofisticado y ligero para transferir archivos entre un entorno corporativo seguro y un asistente de IA.
 
-## Features
-- **Asynchronous Uploads:** No page reloads during file transfer.
-- **Multi-file Support:** Upload multiple documents in one go.
-- **Real-time Monitoring:** Recents list updated every 5 seconds.
-- **Clean UI:** Cortana-themed aesthetic for a better user experience.
+## Características
+- **Cargas Asíncronas:** Sin recargas de página durante la transferencia de archivos.
+- **Soporte Multi-archivo:** Sube múltiples documentos en un solo envío.
+- **Monitoreo en Tiempo Real:** Lista de archivos recientes actualizada cada 5 segundos.
+- **Interfaz Refinada:** Estética temática de Cortana para una mejor experiencia de usuario.
 
-## Installation
-1. Install Flask: `pip install flask`
-2. Run the server: `python3 main.py`
-3. Access the bridge at `http://<your-ip>:8080`
+## Instalación
+1. Instale Flask: `pip install flask`
+2. Ejecute el servidor: `python3 main.py`
+3. Acceda al puente en `http://<su-ip>:8080`
 
-## License
-Distributed under the GNU General Public License v3.0.
+## Licencia
+Distribuido bajo la Licencia Pública General GNU v3.0 (GPL 3.0).
